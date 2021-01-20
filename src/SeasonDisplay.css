@@ -1,0 +1,49 @@
+.icon-left{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.icon-right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.season-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+.winter{
+    background-color: aliceblue;
+}
+.summer{
+    background-color: orange;
+}
+.season-display.summer i{
+    color:red;
+}
+.season-display.winter i{
+    color: blue;
+}
+.season-display.summer h1{
+    font-family: cursive;
+    color: blanchedalmond;
+    font-size: 50px;
+}
+.season-display.winter h1{
+    font-family: cursive;
+    color:black;
+}
+.error-message{
+   display: flex;
+    color: red;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-size: 50px;
+    
+}
